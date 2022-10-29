@@ -1,45 +1,120 @@
-:root{
---primary-text-color: #757575;
---title-text-color: #212121;
---accent-color: #2196F3;
---primary-white-color: #ffffff;
-
-}
-.logo {
-    color: #000000;
-}
-.logo-web {
-    color: var(--accent-color);
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 .body {
-color: var(--primary-text-color);
-font-family: roboto;
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
-.hero {
-    background-color: #2F303A;
-    color: var(--primary-white-color);
+a {
+    text-decoration: none;
 }
-
+ul {
+    list-style: none;
+}
 .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1667;
+  }  
+.logo{
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
 }
-
+.logo:hover,
+.logo:focus {
+   color: var(--accent-color) ;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.link-header {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+}
+.link-header:hover,
+.link-header:focus{
+    color: var(--accent-color);
+}
+.hero {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  letter-spacing: 0.06em;
+}
 .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+  }
+  .button:hover,
+  .button:focus{
+    color: #000000;
+  }
 
+.features-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+}
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer{
+    color: var(--primary-white-color);
+}
+.logo-footer:hover,
+.logo-footer:focus {
+color: var(--accent-color);
+}
+.footer-map{
+    color: var(--primary-white-color);
+}
+.footer-map:hover,
+.footer-map:focus{
+    color: var(--accent-color);
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7143;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--accent-color);
+}
