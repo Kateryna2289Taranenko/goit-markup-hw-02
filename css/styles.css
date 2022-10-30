@@ -54,6 +54,10 @@ ul {
 }
 .header-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus {
@@ -75,6 +79,9 @@ ul {
   color: var(--primary-white-color);
   cursor: pointer;
   border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 .button-order:hover,
 .button-order:focus {
